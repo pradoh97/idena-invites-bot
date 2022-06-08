@@ -1,0 +1,23 @@
+{
+  "name": "idena-bot",
+  "version": "1.0.0",
+  "description": "A bot for idena invitations group :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "idena",
+    "invitations"
+  ],
+  "author": "Hernán Prado",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.2.4",
+    "node-telegram-bot-api": "^0.57.0"
+  },
+  "scripts": {
+    "start":"node app.js"
+  }
+}
